@@ -1,3 +1,5 @@
+/* 헤더 시작 */
+
 header {
     height: 56px;
     padding: 0 32px;
@@ -31,7 +33,7 @@ header {
     width: 600px;
 }
 
-.header_center > input {
+.header_center>input {
     height: 40px;
     width: 100%;
     border: 1px solid #ddd;
@@ -74,12 +76,12 @@ header {
     border-radius: 24px;
 }
 
-.header_making > button {
+.header_making>button {
     background: #f1f1f1;
     border: none;
 }
 
-.header_making > span {
+.header_making>span {
     margin-bottom: 4px;
     padding-right: 4px;
     font-size: 14px;
@@ -96,3 +98,148 @@ header {
     height: 32px;
     border-radius: 50%;
 }
+
+/* 헤더 끝 */
+
+/* left 레이아웃 시작*/
+.main_left {
+    width: 70%;
+    margin-left: 24px;
+}
+
+.video_container {
+    width: 100%;
+}
+
+/* left 레이아웃 끝*/
+
+
+/* video info 시작 */
+
+.main_video {
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.main_video > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.video_info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.video_info > h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.info_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel_box {
+    display: flex;
+    gap: 20px;
+}
+
+.channel_box > figure {
+    background: url(../img/프로필사진.jpg);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.channel_name > h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.channel_name > p {
+    font-size: 12px;
+    color: #606060;
+}
+
+.channel_btn_box > button {
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 24px;
+}
+
+.channel_btn_box > button:first-child {
+    background-color: #f1f1f1;
+    margin-right: 4px;
+}
+
+.channel_btn_box > button:last-child {
+    background-color: #fff;
+}
+
+
+.view_box {
+    display: flex;
+    gap: 16px;
+}
+
+.view_icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: none;
+    border: none
+}
+
+.view_box > div {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    gap: 4px;
+    padding: 0 16px 0 8px;
+    border-radius: 24px;
+}
+
+div.more {
+    padding: 0;
+}
+
+/* video info 끝 */
+
+
+/* video_discription 시작 */
+
+.video_discription {
+    padding: 12px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+
+.video_discription > h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.video_discription > h2 > span {
+    font-weight: 400;
+    color: #797878;
+}
+
+.video_discription > p {
+    
+}
+
+/* video_discription 끝 */
