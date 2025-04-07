@@ -10,7 +10,7 @@ header {
     padding: 0 32px;
 }
 
-.header,
+header,
 .header_left,
 .header_center,
 .header_right {
@@ -194,7 +194,8 @@ header {
 }
 
 .channel_btn_box > button:last-child {
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
 }
 
 
@@ -208,7 +209,7 @@ header {
     height: 40px;
     padding: 8px;
     background: none;
-    border: none
+    border: none;
 }
 
 .view_box > div {
@@ -223,10 +224,6 @@ header {
 div.more {
     padding: 0;
 }
-
-/* video info 끝 */
-
-
 
 .video_discription {
     padding: 12px;
@@ -247,8 +244,9 @@ div.more {
 }
 
 .video_discription > p {
-    
+    margin: 4px 0;
 }
+
 
 /* video info 끝 */
 
@@ -412,7 +410,7 @@ div.more {
 }
 
 .side_video_text > p {
-    font-size: 12px;
+    font-size: 13px;
     color: #606060;
     margin: 8px 0;
 }
